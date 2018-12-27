@@ -1,0 +1,52 @@
+.head{
+  width: 100vw;
+  height: 100vh;
+  padding: none;
+
+  color: black;
+  text-transform: uppercase;
+
+  /*background-image: url(../img/indians.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;*/
+}
+
+.menu {
+  width: 100vw;
+  height: 10vh;
+  font-size: 1em;
+
+  ul {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.intro {
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 8em;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.content {
+
+}
