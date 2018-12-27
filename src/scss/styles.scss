@@ -1,11 +1,13 @@
-@import 'basics/reset.scss';
-@import 'basics/layout.scss';
+@import 'global/reset.scss';
+@import 'global/layout.scss';
+@import 'global/fonts.scss';
+@import 'global/mixins.scss';
+@import 'global/menu.scss';
 
-@import 'home/header.scss';
-
-@import 'projects/test.scss';
-
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import 'home-styles/section-home.scss';
+@import 'home-styles/section-about.scss';
+@import 'home-styles/section-projects.scss';
+@import 'home-styles/section-contact.scss';
 
 
 

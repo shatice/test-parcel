@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato';
+}
+
+.content {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+}

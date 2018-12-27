@@ -5,30 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sarah's Portefolio</title>
+
+  <script defer src="js/libs/oxo.js"></script>
   <script defer src="js/main.js"></script>
-  <script defer src="js/test.js"></script>
+
   <link rel="stylesheet" href="scss/styles.scss">
 
   
 </head>
+
 <body>
-  <header class="head">
-    <nav class="menu">
-      <ul>
-        <li>Home <a href=""></a> </li>
+  <header>
+    <nav id="menu" class="menu">
+      <ul class="menu__list">
+        <li>Home</li>
         <li>About</li>
         <li>Projects</li>
         <li>Contact</li>
       </ul>
+      <div id="menu__burger" class="menu__burger">
+        <div class="menu__icon"></div>
+      </div>
     </nav>
-    <h1 class="intro">
-        Resimler
-    </h1>
   </header>
+
   <main class="content">
-    <section class="about"></section>
-    <section class="projects"></section>
-    <section class="contact"></section>
+    <section class="home">
+      Home
+    </section>
+
+    <section class="about">
+      About
+    </section>
+      
+    <section class="projects">
+        Projects
+    </section>
+
+    <section class="contact">
+      Contact
+    </section>
 
   </main>
 </body>
