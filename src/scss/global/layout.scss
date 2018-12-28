@@ -6,12 +6,11 @@ body {
   font-family: 'Lato';
 }
 
-.content {
+.sections {
   section {
+    padding-top: 20vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-size: 4em;
     text-transform: uppercase;
   }
