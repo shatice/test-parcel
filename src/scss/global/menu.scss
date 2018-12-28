@@ -9,13 +9,13 @@
   top: 15px;
   right: 15px;
 
+  font-size: 1em;
+
   @include medium {
     @include section-size(10vh);
     top: 0;
     right: 0;
     border-radius: 0;
-
-    font-size: 1em;
   }
 
   &.is-open {
@@ -38,19 +38,18 @@
 }
 
 .menu__burger {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
-
+  top: 15px;
+  right: 15px;
   height: 50px;
   width: 50px;
   border-radius: 30%;
 
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  top: 15px;
-  right: 15px;
+  cursor: pointer;
 
   @include medium {
     display: none;
@@ -58,6 +57,7 @@
 }
 
 .menu__icon {
+
   &,
   &::before,
   &::after {
@@ -70,7 +70,7 @@
   &::after {
     content: '';
     display: block;
-    transition: transform 0.3s;
+    transition: transform 0.5s;
   }
   
   &::before {
